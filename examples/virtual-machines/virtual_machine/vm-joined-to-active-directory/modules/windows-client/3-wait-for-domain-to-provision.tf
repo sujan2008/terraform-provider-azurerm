@@ -10,5 +10,5 @@ resource "null_resource" "wait-for-domain-to-provision" {
     command = "sleep 720"
   }
 
-  depends_on = ["azurerm_virtual_machine.client"]
+  depends_on = [azurerm_virtual_machine.client]
 }
