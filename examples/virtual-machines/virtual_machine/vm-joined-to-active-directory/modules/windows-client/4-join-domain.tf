@@ -27,5 +27,5 @@ SETTINGS
     }
 SETTINGS
 
-  depends_on = ["null_resource.wait-for-domain-to-provision"]
+  depends_on = [null_resource.wait-for-domain-to-provision]
 }
