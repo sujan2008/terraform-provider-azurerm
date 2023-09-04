@@ -17,8 +17,8 @@ locals {
 resource "azurerm_virtual_machine_extension" "create-active-directory-forest" {
   name                 = "create-active-directory-forest"
  // location             = "${azurerm_virtual_machine.domain-controller.location}"
-  resource_group_name  = "${var.resource_group_name}"
-  virtual_machine_name = "${azurerm_virtual_machine.domain-controller.name}"
+ // resource_group_name  = "${var.resource_group_name}"
+ // virtual_machine_name = "${azurerm_virtual_machine.domain-controller.name}"
   publisher            = "Microsoft.Compute"
   type                 = "CustomScriptExtension"
   type_handler_version = "1.9"
