@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MPL-2.0
 
 provider "azurerm" {
-  version = "=1.1.2"
+  version = "=3.71.0"
 }
 
 locals {
